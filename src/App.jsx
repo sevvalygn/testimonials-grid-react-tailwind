@@ -55,10 +55,10 @@ const testimonials = [
 
 function App() {
   return (
-    <main className="min-h-screen bg-slate-100 px-6 py-18 md:px-16">
+    <main className="min-h-screen bg-slate-100 px-6 py-18 md:px-16 mx-auto max-w-[375px] md:max-w-[1110px]">
       <section
         aria-label="Testimonials grid section"
-        className="mx-auto grid w-full max-w-[1110px] gap-6 md:grid-cols-4"
+        className="mx-auto grid w-full max-w-[375px] md:max-w-[1110px] gap-6 md:grid-cols-4"
       >
         {testimonials.map((item) => (
           <article
