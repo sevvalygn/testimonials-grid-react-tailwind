@@ -58,7 +58,7 @@ function App() {
     <main className="min-h-screen bg-slate-100 px-6 py-18 md:px-16">
       <section
         aria-label="Testimonials grid section"
-        className="mx-auto grid w-full max-w-6xl gap-6 md:grid-cols-4"
+        className="mx-auto grid w-full max-w-[1110px] gap-6 md:grid-cols-4"
       >
         {testimonials.map((item) => (
           <article
